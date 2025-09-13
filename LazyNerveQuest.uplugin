@@ -1,0 +1,28 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LazyNerveQuest",
+	"Description": "A comprehensive quest management and progression system featuring visual graph-based quest design, modular objective framework, dynamic UI integration, and extensive Blueprint/C++ support. Create complex branching quests with sub-quests, optional objectives, time limits, area restrictions, and custom rewards. Includes built-in objective types (Go-To, Destroy, Wait, Sequence), world-space navigation pings, progress tracking, and a complete event system for seamless game integration.",
+	"Category": "LazyGenerics",
+	"CreatedBy": "Job Omondiale",
+	"CreatedByURL": "https://github.com/Lazy-Jason",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LazyNerveQuestRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "LazyNerveQuestEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
